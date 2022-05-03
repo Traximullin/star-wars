@@ -1,0 +1,18 @@
+.header {
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        background: #14213d;
+        font-size: 2em;
+        height: 5vh;
+        user-select: none;
+        &_item a{
+            cursor: pointer;
+            &:hover {
+                color: #ffb703;
+            }
+        }
+    }
+}
