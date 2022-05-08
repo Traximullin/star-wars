@@ -1,11 +1,11 @@
 import React from "react"
 
 const PlanetsPage: React.FC = () => {
-    return(
-        <div>
+	return (
+		<div>
             Planets
-        </div>
-    )
+		</div>
+	)
 }
 
 export default PlanetsPage

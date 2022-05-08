@@ -1,11 +1,11 @@
 import React from "react"
 
 const FavouritesPage: React.FC = () => {
-    return(
-        <div>
+	return (
+		<div>
             favourites
-        </div>
-    )
+		</div>
+	)
 }
 
 export default FavouritesPage
