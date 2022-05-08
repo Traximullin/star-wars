@@ -10,10 +10,7 @@
         "plugin:import/errors",
         "plugin:import/warnings",
         "plugin:import/typescript",
-        "google",
-        "plugin:prettier/recommended",
-        "prettier",
-        "prettier/react"
+        "google"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -29,8 +26,13 @@
         "prettier"
     ],
     "rules": {
+        "semi": [2, "never"],
+        "no-tabs": 0,
+        "indent": [1, "tab"],
+        "linebreak-style": ["error", "windows"],
         "require-jsdoc": "off",
         "@typescript-eslint/ban-ts-comment": "off",
-        "@typescript-eslint/ban-types": "off"
+        "@typescript-eslint/ban-types": "off",
+        "quotes": [2, "double", { "avoidEscape": true }]
     }
 }
